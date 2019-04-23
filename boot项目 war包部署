@@ -1,0 +1,14 @@
+@EnableTransactionManagement
+@SpringBootApplication
+@MapperScan(basePackages = {"com.dxhy.dao"})
+public class ApiApplication extends SpringBootServletInitializer {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ApiApplication.class, args);
+	}
+
+	@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+		return application.sources(ApiApplication.class);
+	}
+}
