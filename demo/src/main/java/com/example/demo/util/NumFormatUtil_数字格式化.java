@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
  * @Description ：数字格式化工具类
  * @date ：2019/4/23
  */
-public class NumFormatUtil {
+public class NumFormatUtil_数字格式化 {
     /**
     *@author:chendaolong
     *@description: 一万以下的数字正常显示(如有小数点保留两位小数)
