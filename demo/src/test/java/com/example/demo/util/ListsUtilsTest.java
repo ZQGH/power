@@ -18,7 +18,6 @@ public class ListsUtilsTest {
         for (List<String> strings :partition) {
             System.out.println(strings);
         }
-
     }
 
 }
